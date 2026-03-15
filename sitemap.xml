@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://naturegreenholidays.com/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://naturegreenholidays.com/assets/images/backgrounds/banner-2-bg-1.jpg</image:loc>
+      <image:title>Nature Green Holidays — Kerala Tour Packages &amp; Taxi Service</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/services.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/vehicles.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/packages.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/about.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/contact.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/terms.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/privacy.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Package Pages -->
+  <url>
+    <loc>https://naturegreenholidays.com/packages/kerala-honeymoon.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://naturegreenholidays.com/assets/images/backgrounds/banner-2-bg-1.jpg</image:loc>
+      <image:title>Kerala Honeymoon Package 5D/4N — Alleppey, Munnar, Thekkady</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/packages/munnar-thekkady-family.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/packages/alleppey-backwater.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://naturegreenholidays.com/blog/top-10-things-to-do-in-munnar.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <image:image>
+      <image:loc>https://naturegreenholidays.com/assets/images/backgrounds/banner-2-bg-2.jpg</image:loc>
+      <image:title>Top 10 Things to Do in Munnar, Kerala</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/how-to-book-houseboat-alleppey.html</loc>
+    <lastmod>2025-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/kerala-honeymoon-itinerary.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/wayanad-travel-guide.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/kerala-food-guide.html</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/best-time-to-visit-kerala.html</loc>
+    <lastmod>2024-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/kerala-family-trip-with-kids.html</loc>
+    <lastmod>2024-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/kochi-travel-guide.html</loc>
+    <lastmod>2024-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/kerala-packing-list.html</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <url>
+    <loc>https://naturegreenholidays.com/blog/thekkady-periyar-guide.html</loc>
+    <lastmod>2024-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+</urlset>

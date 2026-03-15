@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block utility pages from indexing
+Disallow: /thank-you.html
+Disallow: /404.html
+
+# Block any potential admin or form endpoints
+Disallow: /inc/
+
+# Sitemap location
+Sitemap: https://naturegreenholidays.com/sitemap.xml
