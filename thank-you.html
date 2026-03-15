@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thank You — Inquiry Received | Nature Green Holidays</title>
-  <meta name="description" content="Thank you for contacting Nature Green Holidays. We have received your inquiry and will be in touch within 30 minutes.">
+  <meta name="description"
+    content="Thank you for contacting Nature Green Holidays. We have received your inquiry and will be in touch within 30 minutes.">
   <meta name="robots" content="noindex,follow">
   <link rel="canonical" href="https://naturegreenholidays.com/thank-you.html">
   <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Satisfy&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Satisfy&display=swap"></noscript>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Satisfy&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Satisfy&display=swap">
+  </noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print"
+    onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </noscript>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="stylesheet" href="assets/css/ngh-custom.css">
 
-  <!-- GA4 conversion event -->
+  <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMHDC7HFKN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
-    gtag('config', 'G-SMHDC7HFKN', {page_path: window.location.pathname});
-    // Fire conversion event
-    gtag('event', 'conversion', {
-      'event_category': 'Lead',
-      'event_label': 'Form Submit — Thank You Page',
-      'value': 1
+
+    gtag('config', 'G-SMHDC7HFKN', {
+      page_path: window.location.pathname
     });
-    // dataLayer push for GTM
-    dataLayer.push({
-      event: 'form_submit_success',
-      form_name: 'lead_inquiry'
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      /* GA4 Lead Conversion */
+      gtag('event', 'generate_lead', {
+        event_category: 'engagement',
+        event_label: 'website_form_lead',
+        value: 1
+      });
+
+      /* GTM DataLayer Event */
+      window.dataLayer.push({
+        event: 'form_submit_success',
+        form_name: 'lead_inquiry',
+        page: 'thank_you'
+      });
+
     });
   </script>
 
   <style>
-    body { background: var(--clr-light, #f8faf9); }
+    body {
+      background: var(--clr-light, #f8faf9);
+    }
+
     .thankyou-page {
       min-height: 100vh;
       display: flex;
@@ -50,97 +79,188 @@
       padding: 40px 20px;
       text-align: center;
     }
+
     .thankyou-card {
       background: #fff;
       border-radius: 24px;
-      box-shadow: 0 8px 40px rgba(0,0,0,.12);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, .12);
       padding: clamp(36px, 7vw, 64px) clamp(28px, 6vw, 60px);
       max-width: 600px;
       width: 100%;
     }
+
     .thankyou-check {
-      width: 80px; height: 80px;
-      background: rgba(26,122,60,.1);
+      width: 80px;
+      height: 80px;
+      background: rgba(26, 122, 60, .1);
       border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 0 auto 24px;
-      font-size: 2.4rem; color: #1a7a3c;
-      animation: popIn .5s cubic-bezier(.17,.67,.35,1.2) both;
+      font-size: 2.4rem;
+      color: #1a7a3c;
+      animation: popIn .5s cubic-bezier(.17, .67, .35, 1.2) both;
     }
+
     @keyframes popIn {
-      from { transform: scale(0); opacity: 0; }
-      to   { transform: scale(1); opacity: 1; }
+      from {
+        transform: scale(0);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
+
     .thankyou-eyebrow {
       font-family: 'Satisfy', cursive;
-      color: #1a7a3c; font-size: 1.1rem; margin-bottom: 8px;
+      color: #1a7a3c;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
     }
+
     .thankyou-title {
       font-family: 'Barlow Condensed', sans-serif;
       font-size: clamp(2rem, 6vw, 2.8rem);
-      font-weight: 900; color: #1a1a2e; margin-bottom: 14px; line-height: 1.1;
+      font-weight: 900;
+      color: #1a1a2e;
+      margin-bottom: 14px;
+      line-height: 1.1;
     }
-    .thankyou-subtitle { color: #6b7280; margin-bottom: 32px; line-height: 1.7; font-size: 1.05rem; }
-    .next-steps { background: #f8faf9; border-radius: 16px; padding: 24px; margin-bottom: 32px; text-align: left; }
-    .next-steps h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 1.2rem; font-weight: 700; color: #1a1a2e; margin-bottom: 16px; }
-    .step-item { display: flex; gap: 14px; margin-bottom: 14px; align-items: flex-start; }
-    .step-num { width: 28px; height: 28px; background: #1a7a3c; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .85rem; flex-shrink: 0; margin-top: 2px; }
-    .step-text { font-size: .92rem; color: #333344; line-height: 1.55; }
-    .step-text strong { color: #1a1a2e; }
-    .action-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .logo-top { margin-bottom: 28px; }
-    .logo-top img { width: 80px; }
+
+    .thankyou-subtitle {
+      color: #6b7280;
+      margin-bottom: 32px;
+      line-height: 1.7;
+      font-size: 1.05rem;
+    }
+
+    .next-steps {
+      background: #f8faf9;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .next-steps h3 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 16px;
+    }
+
+    .step-item {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 14px;
+      align-items: flex-start;
+    }
+
+    .step-num {
+      width: 28px;
+      height: 28px;
+      background: #1a7a3c;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: .85rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-text {
+      font-size: .92rem;
+      color: #333344;
+      line-height: 1.55;
+    }
+
+    .step-text strong {
+      color: #1a1a2e;
+    }
+
+    .action-btns {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-top {
+      margin-bottom: 28px;
+    }
+
+    .logo-top img {
+      width: 80px;
+    }
   </style>
 </head>
+
 <body>
-<main class="thankyou-page" id="main-content">
-  <div class="thankyou-card">
+  <main class="thankyou-page" id="main-content">
+    <div class="thankyou-card">
 
-    <div class="logo-top">
-      <img src="assets/images/logo-light.png" alt="Nature Green Holidays" style="background:var(--clr-primary,#1a7a3c);padding:8px;border-radius:12px;">
-    </div>
-
-    <div class="thankyou-check" aria-hidden="true">
-      <i class="fa fa-check"></i>
-    </div>
-
-    <p class="thankyou-eyebrow">Message Received!</p>
-    <h1 class="thankyou-title">Thank You for Reaching Out</h1>
-    <p class="thankyou-subtitle">We've received your travel inquiry and our team will get back to you <strong>within 30 minutes</strong> during business hours (8 AM – 8 PM IST, Mon–Sun).</p>
-
-    <div class="next-steps" role="region" aria-label="What happens next">
-      <h3><i class="fa fa-list-check" style="color:#1a7a3c;margin-right:8px;" aria-hidden="true"></i> What Happens Next</h3>
-      <div class="step-item">
-        <div class="step-num" aria-hidden="true">1</div>
-        <p class="step-text"><strong>Confirmation call or WhatsApp</strong> — Our team will reach out on the number you provided to discuss your requirements in detail.</p>
+      <div class="logo-top">
+        <img src="assets/images/logo-light.png" alt="Nature Green Holidays"
+          style="background:var(--clr-primary,#1a7a3c);padding:8px;border-radius:12px;">
       </div>
-      <div class="step-item">
-        <div class="step-num" aria-hidden="true">2</div>
-        <p class="step-text"><strong>Free custom itinerary</strong> — We'll prepare a personalised Kerala itinerary based on your dates, destinations and budget — completely free.</p>
+
+      <div class="thankyou-check" aria-hidden="true">
+        <i class="fa fa-check"></i>
       </div>
-      <div class="step-item">
-        <div class="step-num" aria-hidden="true">3</div>
-        <p class="step-text"><strong>Confirm and relax</strong> — Once you're happy with the plan, pay a small advance to confirm your booking. We handle everything else!</p>
+
+      <p class="thankyou-eyebrow">Message Received!</p>
+      <h1 class="thankyou-title">Thank You for Reaching Out</h1>
+      <p class="thankyou-subtitle">We've received your travel inquiry and our team will get back to you <strong>within
+          30 minutes</strong> during business hours (8 AM – 8 PM IST, Mon–Sun).</p>
+
+      <div class="next-steps" role="region" aria-label="What happens next">
+        <h3><i class="fa fa-list-check" style="color:#1a7a3c;margin-right:8px;" aria-hidden="true"></i> What Happens
+          Next</h3>
+        <div class="step-item">
+          <div class="step-num" aria-hidden="true">1</div>
+          <p class="step-text"><strong>Confirmation call or WhatsApp</strong> — Our team will reach out on the number
+            you provided to discuss your requirements in detail.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-num" aria-hidden="true">2</div>
+          <p class="step-text"><strong>Free custom itinerary</strong> — We'll prepare a personalised Kerala itinerary
+            based on your dates, destinations and budget — completely free.</p>
+        </div>
+        <div class="step-item">
+          <div class="step-num" aria-hidden="true">3</div>
+          <p class="step-text"><strong>Confirm and relax</strong> — Once you're happy with the plan, pay a small advance
+            to confirm your booking. We handle everything else!</p>
+        </div>
       </div>
+
+      <div class="action-btns">
+        <a href="https://wa.me/917012112733?text=Hello+Nature+Green+Holidays,+I+just+submitted+an+inquiry+and+want+to+follow+up"
+          target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-lg">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp Now
+        </a>
+        <a href="index.html" class="btn btn-primary btn-lg">
+          <i class="fa fa-home" aria-hidden="true"></i> Back to Homepage
+        </a>
+      </div>
+
+      <p style="margin-top:24px;font-size:.85rem;color:#6b7280;">
+        Need immediate assistance? Call us at <a href="tel:+917012112733" style="color:#1a7a3c;font-weight:700;">+91
+          70121 12733</a>
+      </p>
+
     </div>
+  </main>
 
-    <div class="action-btns">
-      <a href="https://wa.me/917012112733?text=Hello+Nature+Green+Holidays,+I+just+submitted+an+inquiry+and+want+to+follow+up" target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-lg">
-        <i class="fab fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp Now
-      </a>
-      <a href="index.html" class="btn btn-primary btn-lg">
-        <i class="fa fa-home" aria-hidden="true"></i> Back to Homepage
-      </a>
-    </div>
-
-    <p style="margin-top:24px;font-size:.85rem;color:#6b7280;">
-      Need immediate assistance? Call us at <a href="tel:+917012112733" style="color:#1a7a3c;font-weight:700;">+91 70121 12733</a>
-    </p>
-
-  </div>
-</main>
-
-<script src="assets/js/jquery.min.js" defer></script>
-<script src="assets/js/ngh-main.js" defer></script>
+  <script src="assets/js/jquery.min.js" defer></script>
+  <script src="assets/js/ngh-main.js" defer></script>
 </body>
+
 </html>
