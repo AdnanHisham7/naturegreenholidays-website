@@ -5,7 +5,7 @@
   <!-- Core Pages -->
   <url>
     <loc>https://naturegreenholidays.com/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -16,56 +16,56 @@
 
   <url>
     <loc>https://naturegreenholidays.com/services.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/vehicles.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/packages.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/about.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/contact.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/blog.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/terms.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/privacy.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -143,14 +143,14 @@
 
   <url>
     <loc>https://naturegreenholidays.com/packages/munnar-thekkady-family.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/packages/alleppey-backwater.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -158,7 +158,7 @@
   <!-- Blog Posts -->
   <url>
     <loc>https://naturegreenholidays.com/blog/top-10-things-to-do-in-munnar.html</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <image:image>
@@ -169,21 +169,21 @@
 
   <url>
     <loc>https://naturegreenholidays.com/blog/how-to-book-houseboat-alleppey.html</loc>
-    <lastmod>2025-02-01</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/blog/kerala-honeymoon-itinerary.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://naturegreenholidays.com/blog/wayanad-travel-guide.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
